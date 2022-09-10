@@ -22,10 +22,11 @@
 	</header>
 
   <main>
+    <p class="error message hidden"></p>
     <form>
       <label>
         Enter a Pokemon's number below...
-        <input id="pokemon-id" type="number" name="id" />
+        <input id="pokemon-id" type="number" name="id" min="1" max"800"/>
       </label>
       <button type="submit">Add Pokemon</button>
     </form>
